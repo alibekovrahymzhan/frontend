@@ -63,10 +63,10 @@
               "browserTarget": "frontend:build:production"
             },
             "development": {
-              "browserTarget": "frontend:build:development",
-              "ssl": true,
-              "sslKey": "src/assets/ssl/demostudy_ssl.pkcs8",
-              "sslCert": "src/assets/ssl/demostudy_ssl.cer"
+              "browserTarget": "frontend:build:development"
+              // "ssl": true,
+              // "sslKey": "src/assets/ssl/demostudy_ssl.pkcs8",
+              // "sslCert": "src/assets/ssl/demostudy_ssl.cer"
             }
           },
           "defaultConfiguration": "development"
