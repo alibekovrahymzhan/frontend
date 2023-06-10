@@ -20,7 +20,7 @@ export class CreateEmployeeComponent implements OnInit{
   saveEmployee(){
     this.employeeService.createEmployee(this.employee).subscribe( data =>{
         console.log(data);
-        // this.goToEmployeeList();
+         this.goToEmployeeList();
       },
       error => console.log(error));
   }
@@ -29,6 +29,6 @@ export class CreateEmployeeComponent implements OnInit{
   }
    onSubmit(){
     console.log(this.employee);
-
+   this.saveEmployee();
    }
 }
