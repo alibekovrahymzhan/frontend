@@ -5,7 +5,8 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
 //mapping component with url
 const routes: Routes = [
   // {path: 'data', component: DataComponent}
-  {path: '', component: EmployeeListComponent}
+  {path: 'employees', component: EmployeeListComponent},
+  {path: '',redirectTo: 'employees', pathMatch: 'full'}
   // {path: '', component: DataComponent}
 
 
