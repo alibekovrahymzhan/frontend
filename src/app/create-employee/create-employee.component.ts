@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Employee} from "../employee";
 import {EmployeeService} from "../employee.service";
-import { Router } from '@angular/router';
+import {Router} from '@angular/router';
 //import * as console from "console";
 
 @Component({
